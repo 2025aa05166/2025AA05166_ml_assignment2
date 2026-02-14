@@ -61,7 +61,7 @@ The following six classification models were implemented on the same dataset:
 
 ---
 
-## d. Observations on Model Performance  **[3 Marks]**
+## d. Observations on Model Performance
 
 | ML Model Name | Observation |
 |--------------|------------|
