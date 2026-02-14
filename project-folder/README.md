@@ -1,5 +1,5 @@
 # 📘 Machine Learning Assignment – 2  
-**BITS WILP | M.Tech (AIML / DSE)**  
+**BITS WILP | M.Tech (AIML)**  
 **Roll No.: 2025AA05166**
 
 ---
@@ -12,7 +12,7 @@ This assignment demonstrates an end-to-end machine learning workflow including d
 
 ---
 
-## b. Dataset Description  **[1 Mark]**
+## b. Dataset Description 
 
 The dataset used for this assignment is the **Heart Disease Dataset** obtained from **Kaggle** (`johnsmith88/heart-disease-dataset`).
 
@@ -29,7 +29,7 @@ The dataset was split into **80% training data** and **20% testing data** using 
 
 ---
 
-## c. Models Used and Evaluation Metrics  **[6 Marks]**
+## c. Models Used and Evaluation Metrics
 
 The following six classification models were implemented on the same dataset:
 
@@ -44,12 +44,12 @@ The following six classification models were implemented on the same dataset:
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
 |--------------|----------|-----|-----------|--------|----------|-----|
-| Logistic Regression | 0.86 | 0.92 | 0.85 | 0.89 | 0.87 | 0.72 |
-| Decision Tree | 0.80 | 0.82 | 0.79 | 0.81 | 0.80 | 0.60 |
-| kNN | 0.83 | 0.86 | 0.82 | 0.84 | 0.83 | 0.65 |
-| Naive Bayes | 0.78 | 0.81 | 0.77 | 0.79 | 0.78 | 0.55 |
-| Random Forest (Ensemble) | 0.88 | 0.92 | 0.87 | 0.89 | 0.88 | 0.75 |
-| XGBoost (Ensemble) | 0.90 | 0.94 | 0.89 | 0.91 | 0.90 | 0.78 |
+| Logistic Regression | 0.810 | 0.930 | 0.762 | 0.914 | 0.831 | 0.631 |
+| Decision Tree | 0.985 | 0.986 | 1.000 | 0.971 | 0.986 | 0.971 |
+| kNN | 0.863 | 0.963 | 0.874 | 0.857 | 0.865 | 0.727 |
+| Naive Bayes | 0.829 | 0.904 | 0.807 | 0.876 | 0.840 | 0.660 |
+| Random Forest (Ensemble) | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| XGBoost (Ensemble) | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
 
 ---
 
@@ -57,12 +57,12 @@ The following six classification models were implemented on the same dataset:
 
 | ML Model Name | Observation |
 |--------------|------------|
-| Logistic Regression | Stable baseline model with good interpretability. |
-| Decision Tree | Interpretable but prone to overfitting. |
-| kNN | Balanced performance but sensitive to scaling. |
-| Naive Bayes | Fast but limited by independence assumption. |
-| Random Forest (Ensemble) | Strong performance with reduced overfitting. |
-| XGBoost (Ensemble) | Best overall performance due to boosting. |
+| Logistic Regression | Provided a stable baseline with high recall but comparatively lower precision due to its linear decision boundary. |
+| Decision Tree | Achieved very high accuracy, indicating strong learning capacity but with a high risk of overfitting. |
+| kNN | Delivered balanced performance across metrics, benefiting from feature scaling but sensitive to neighborhood selection. |
+| Naive Bayes | Showed reasonable performance with fast computation, though limited by its feature independence assumption. |
+| Random Forest (Ensemble) | Achieved perfect scores across all metrics, demonstrating strong ensemble learning but potential overfitting. |
+| XGBoost (Ensemble) | Delivered the best overall performance by capturing complex patterns through boosting, though perfect scores suggest possible overfitting. |
 
 ---
 
@@ -93,4 +93,3 @@ project-folder/
 
 - Assignment executed on **BITS Virtual Lab**
 - Screenshot included in PDF submission
-- Original work following academic integrity guidelines
