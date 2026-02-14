@@ -3,6 +3,10 @@
 **Roll No.: 2025AA05166**
 
 ---
+# 1. GitHub Repository Link
+https://github.com/2025aa05166/2025AA05166_ml_assignment2/edit/main/project-folder
+# 2. Live Streamlit App Link 
+https://2025aa05166mlassignment2.streamlit.app/
 
 ## a. Problem Statement
 
