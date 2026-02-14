@@ -7,6 +7,9 @@
 https://github.com/2025aa05166/2025AA05166_ml_assignment2/edit/main/project-folder
 # 2. Live Streamlit App Link 
 https://2025aa05166mlassignment2.streamlit.app/
+# 3. Screenshot of assignment execution on BITS Virtual Lab
+![Screenshot 2026-02-14 230425](https://github.com/user-attachments/assets/e0fea43a-5072-4af9-bbe7-b88182f3faac)
+
 
 ## a. Problem Statement
 
@@ -92,8 +95,3 @@ project-folder/
 ```
 
 ---
-
-## ✅ Final Notes
-
-- Assignment executed on **BITS Virtual Lab**
-- Screenshot included in PDF submission
