@@ -4,7 +4,7 @@
 
 ---
 # 1. GitHub Repository Link
-(https://github.com/2025aa05166/2025AA05166_ml_assignment2/tree/main/project-folder)
+https://github.com/2025aa05166/2025AA05166_ml_assignment2/tree/main/project-folder
 # 2. Live Streamlit App Link 
 https://2025aa05166mlassignment2.streamlit.app/
 # 3. Screenshot of assignment execution on BITS Virtual Lab
